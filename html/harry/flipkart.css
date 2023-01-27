@@ -5,7 +5,9 @@
     margin: 0;
 
 }
-
+header{
+    z-index: 1;
+}
 
 header {
     background: #2874f0;
@@ -37,10 +39,10 @@ nav {
     display: flex;
 }
 
-
 nav ul li {
     padding: 23px;
     list-style: none;
+    font-family: Roboto, Arial, sans-serif;
 }
 
 nav ul li a {
